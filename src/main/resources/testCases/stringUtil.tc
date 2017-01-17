@@ -1,0 +1,21 @@
+# @author Rafael Peres dos Santos
+# Test case description
+
+# variables
+	s=stringUtil.isNotEmpty("")
+	ss=stringUtil.isNotEmpty("");
+	sss=stringUtil.isNotEmpty("");
+	ssss=stringUtil.isNotEmpty("");
+	sssss=stringUtil.isNotEmpty("");
+	ssssss=stringUtil.isNotEmpty("");
+	sssssss=stringUtil.isNotEmpty("");
+	ssssssss=stringUtil.isNotEmpty("");
+	sssssssss=stringUtil.isNotEmpty("");
+	ssssssssss=stringUtil.isNotEmpty("");
+# success if
+// successIfSTrue()	 s is true and "string".length >= 1 and "string".length <= 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+// successIfSSIsTrue() ss is true
+	 
+# fail if
+// failIfSIsFalse()	s is false and "string".length < 1 and "string".length > 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+// failIfSsIsFalse()	ss is false

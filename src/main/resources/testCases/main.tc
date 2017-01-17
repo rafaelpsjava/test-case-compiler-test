@@ -1,0 +1,15 @@
+# @author Rafael Peres dos Santos
+
+# package(s) definition
+generatedTestCasesPackage=br.com.pegasus.solutions.testcase.compiler.test.generated
+utilPack=br.com.pegasus.solutions.tc.util
+
+
+
+# variable(s) definition
+stringUtil=${utilPack}.StringUtil
+
+
+
+# test case(s)
+stringUtil.tc
